@@ -254,3 +254,12 @@ img {
     margin-top: 5rem;
     text-align: center;
 }
+
+/**Nosotros**/
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 4rem;
+}
+

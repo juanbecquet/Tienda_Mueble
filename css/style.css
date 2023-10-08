@@ -23,27 +23,15 @@ h3 {
 h1 {
     font-size: 3.8rem;
 }
-@media (min-width: 768px) { 
-    h1 {
-        font-size: 5rem;
-    }
-}
+
 h2 {
     font-size: 3.2rem;
 }
-@media (min-width: 768px) { 
-    h2 {
-        font-size: 4rem;
-    }
-}
+
 h3 {
     font-size: 2.4rem;
 }
-@media (min-width: 768px) { 
-    h3 {
-        font-size: 3rem;
-    }
-}
+
 a {
     text-decoration: none;
     color: #000;
@@ -72,19 +60,11 @@ img {
 }
 
 /* Utilidades */
-
 .text-center{
     text-align: center;
 }
 
-@media (min-width: 768px) { 
-    .max-width-30 {
-        max-width: 30rem;
-    }
-}
-
 /**Header y Navegacion**/
-
 .nombre-sitio {
     margin-top: 5rem;
     text-align: center;
@@ -104,13 +84,6 @@ img {
     justify-content: space-between;
 }
 
-@media (min-width: 768px) { 
-    .nav-principal {
-        justify-content: space-between;
-        flex-direction: row;
-    }
-}
-
 .hero {
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
@@ -119,26 +92,13 @@ img {
     height: 55rem;
 }
 
-@media (min-width: 768px) { 
-    .hero {
-        height: 55rem;
-    }
-}
-
 /**Categorias**/
-
 .categorias {
     padding-top: 5rem;
 }
 
 .categorias h2 {
     text-align: center;
-}
-
-@media (min-width: 768px) { 
-    .categoria {
-        margin-bottom: 0;
-    }
 }
 
 .categoria a {
@@ -161,7 +121,6 @@ img {
 }
 
 /**Nosotros**/
-
 .sobre-nosotros {
     background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
     background-position: left center;
@@ -182,7 +141,6 @@ img {
 }
 
 /* Listado de Productos */
-
 .contenido-principal {
     padding-top: 5rem;
 }
@@ -266,8 +224,20 @@ img {
     padding-top: 5rem;
 }
 
+.site-footer h3 {
+    margin-bottom: .5rem;
+}
 .grid-footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+.footer-menu a {
+    display: block;
+}
+
+.copyright {
+    margin-top: 5rem;
+    text-align: center;
 }

@@ -103,7 +103,7 @@ img {
 
 /**Categorias**/
 .categorias {
-    padding-top: 5rem;
+    padding: 5rem;
 }
 
 .categorias h2 {
@@ -307,3 +307,20 @@ img {
     width: 60rem;
     margin: 0 auto;
 }
+
+/**Galeria**/
+.galeria {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.galeria img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+}
+

@@ -47,7 +47,7 @@ img {
     display: block;
 }
 
-.btn {
+.boton {
     background-color: #8cbc00;
     display: block;
     color: #FFF;
@@ -58,7 +58,7 @@ img {
     text-align: center;
     border: none;
 }
-.btn:hover {
+.boton:hover {
     background-color: #769c02;
     cursor: pointer;
     cursor: pointer;

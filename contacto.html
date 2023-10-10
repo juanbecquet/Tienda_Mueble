@@ -59,7 +59,7 @@
             <legend>Pais</legend>
             <div class="campo">
                 <label for="pais">Pais</label>
-                <select id="pais">
+                <select class="pais" id="pais">
                     <option value="">--Seleccione--</option>
                     <option value="AR">Argentina</option>
                     <option value="PR">Peru</option>
@@ -82,8 +82,8 @@
                 <input type="radio" id="proveedor" name="tipo" value="proveedor">
             </div>
             <div class="campo">
-                <label for="categoria">Categoria de Interes</label>
-                <input list="categorias" name="categorias">
+                <label for="categoria">Categorias</label>
+                <input class="input" list="categorias" name="categorias">
                 <datalist id="categorias">
                     <option value="Cocina"></option>
                     <option value="Exterior"></option>
@@ -93,7 +93,7 @@
                 </datalist>
             </div>
         </fieldset>
-        <input type="submit" value="Enviar Formulario">
+        <input class="btn" type="submit" value="Enviar Formulario">
     </form>
 
 </main>

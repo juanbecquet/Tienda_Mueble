@@ -30,7 +30,6 @@ h1 {
     font-size: 5rem;
   }
 }
-
 h2 {
   font-size: 3.2rem;
 }
@@ -40,7 +39,6 @@ h2 {
     font-size: 4rem;
   }
 }
-
 h3 {
   font-size: 2.4rem;
 }
@@ -50,7 +48,6 @@ h3 {
     font-size: 3rem;
   }
 }
-
 a {
   text-decoration: none;
   color: #000;
@@ -89,7 +86,6 @@ img {
     width: auto;
   }
 }
-
 /** Utilidades */
 .text-center {
   text-align: center;
@@ -101,7 +97,6 @@ img {
     max-width: 30rem;
   }
 }
-
 /** Header y Navegacion **/
 .nombre-sitio {
   margin-top: 5rem;
@@ -129,7 +124,6 @@ img {
     flex-direction: row;
   }
 }
-
 /** Categorias **/
 .categorias {
   padding: 5rem 0;
@@ -144,7 +138,6 @@ img {
     margin-bottom: 0;
   }
 }
-
 .categoria img {
   width: 100%;
 }
@@ -169,7 +162,6 @@ img {
     gap: 2rem;
   }
 }
-
 /** Bloque Nosotros */
 .sobre-nosotros {
   background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
@@ -186,7 +178,6 @@ img {
     background-size: 100%, 160rem;
   }
 }
-
 .sobre-nosotros-grid {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -199,7 +190,6 @@ img {
     column-gap: 10rem;
   }
 }
-
 .texto-nosotros {
   grid-row: 2/3;
   color: #FFF;
@@ -212,7 +202,6 @@ img {
     grid-column: 2/3;
   }
 }
-
 /** Listado de Productos **/
 .contenido-principal {
   padding-top: 3rem;
@@ -262,7 +251,6 @@ img {
     grid-column-end: 7;
   }
 }
-
 .producto {
   background-color: #037bc0;
   margin-bottom: 2rem;
@@ -273,7 +261,6 @@ img {
     margin-bottom: 0;
   }
 }
-
 .producto:last-of-type {
   margin-bottom: 0;
 }
@@ -319,7 +306,6 @@ img {
     gap: 2rem;
   }
 }
-
 .grid-footer > div {
   margin-bottom: 2rem;
 }
@@ -329,7 +315,6 @@ img {
     margin: 0;
   }
 }
-
 .footer-menu a {
   display: block;
   text-align: center;
@@ -340,7 +325,6 @@ img {
     text-align: left;
   }
 }
-
 .copyright {
   margin-top: 5rem;
   text-align: center;
@@ -374,7 +358,6 @@ img {
     column-gap: 4rem;
   }
 }
-
 .entrada {
   border-bottom: 2px solid #e1e1e1;
   margin-bottom: 2rem;
@@ -390,7 +373,6 @@ img {
     text-align: left;
   }
 }
-
 .contenido-blog {
   padding: 2rem;
 }
@@ -405,7 +387,6 @@ img {
     justify-content: space-between;
   }
 }
-
 .entrada-meta p {
   font-weight: bold;
 }
@@ -434,7 +415,6 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 .galeria img {
   height: 40rem;
   width: 40rem;
@@ -479,4 +459,57 @@ img {
   border: 1px solid #e1e1e1;
   padding: 1rem;
 }
+
+.tiempos_plazos {
+  text-align: justify;
+}
+.tiempos_plazos span {
+  color: #037bc0;
+  font-weight: bold;
+}
+
+.trabaja_nosotros {
+  text-align: justify;
+}
+.trabaja_nosotros span {
+  color: #037bc0;
+  font-weight: bold;
+}
+
+.privacidad {
+  text-align: justify;
+  margin: 0;
+}
+.privacidad p {
+  margin: 0;
+}
+.privacidad span {
+  color: #037bc0;
+  font-weight: bold;
+}
+
+.preguntas {
+  text-align: justify;
+  margin: 0;
+}
+.preguntas p {
+  margin: 0;
+}
+.preguntas span {
+  color: #037bc0;
+  font-weight: bold;
+}
+
+.terminos {
+  text-align: justify;
+  margin: 0;
+}
+.terminos p {
+  margin: 0;
+}
+.terminos span {
+  color: #037bc0;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
